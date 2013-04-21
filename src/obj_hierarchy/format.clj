@@ -3,8 +3,8 @@
 
 (defn- format-el [idx el]
   (let [cl (if (= 0 idx)
-             "- Class:"
-             "- SuperClass")
+             "* Class:"
+             "* SuperClass:")
         c (first el)
         i (rest el)]
     (str cl " `" (.getName c) "`"
