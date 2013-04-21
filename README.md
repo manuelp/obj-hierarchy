@@ -1,13 +1,20 @@
 # obj-hierarchy
 
-A Clojure library designed to ... well, that part is up to you.
+A toy library to explore the class hierarchy of an object.
 
 ## Usage
 
-FIXME
+```clojure
+(use '(obj-hierarchy core format))
+
+(-> "something"
+    class-hierarchy
+    transform
+    format-hierarchy)
+```
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Manuel Paccagnella
 
 Distributed under the Eclipse Public License, the same as Clojure.

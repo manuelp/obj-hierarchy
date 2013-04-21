@@ -1,4 +1,4 @@
-(defproject obj-hierarchy "0.1.0-SNAPSHOT"
+(defproject obj-hierarchy "0.1.0"
   :description "A small library to explore objects hierarchies."
   :url "https://github.com/manuelp/obj-hierarchy"
   :license {:name "Eclipse Public License"
